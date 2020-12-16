@@ -1,0 +1,17 @@
+.ooo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ooo main {
+    flex: 1;
+    overflow: auto;
+}
+
+.ooo footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
